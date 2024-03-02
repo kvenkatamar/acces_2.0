@@ -8,11 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 body {
   background: #fff;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
+  overflow-wrap: break-word;
 }
 
 sup {
@@ -823,6 +825,10 @@ h6 {
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
+.row {
+  overflow: auto;
+}
+
 #schedule {
   padding: 60px 0 60px 0;
 }
